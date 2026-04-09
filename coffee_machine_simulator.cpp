@@ -7,7 +7,7 @@ int main() {
   char size;
   cout<<"Select cup size (D=double/M=manual): ";
   cin>>size;
-  if(type== 'W' || type=='w' && size=='M' || size=='m'){
+  if(if ((type == 'W' || type == 'w') && (size == 'M' || size == 'm'))){
       cout<<"put water  15 minutes"<<endl<<"Sugar      15 minutes"<<endl<<"Mix well   20 minutes"<<endl<<"Add coffee 2 minutes"<<endl<<"Add milk   4 minutes"<<endl<<"Mix well   20 minutes";
   }else if(type=='W' || type=='w'&& size=='D' || size=='d'){
       cout<<"put water  22.5 minutes"<<endl<<"Sugar      22.5 minutes"<<endl<<"Mix well   30 minutes"<<endl<<"Add coffee 3 minutes"<<endl<<"Add milk   6 minutes"<<endl<<"Mix well   30 minutes";
